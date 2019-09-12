@@ -4,9 +4,14 @@
 #include "pch.h"
 #include <iostream>
 
+
+void Test() {
+	std::cout << "Hello World!\n";
+}
+
 int main()
 {
-    std::cout << "Hello World!\n";
+	Test();
 	return 0;
 }
 
